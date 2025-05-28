@@ -3,9 +3,17 @@ public class Student {
     private int idade;
     private char sexo;
 
+    public Student(String nome, int idade){
+        this.nome= nome;
+        this.idade= idade;
+    }
+    public Student() {
+        super();
+    }
     public String getNome() {
         return this.nome;
     }
+    
 
     public void setNome(String nome) {
         this.nome = nome;
