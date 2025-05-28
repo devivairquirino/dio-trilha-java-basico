@@ -1,1 +1,1 @@
-<pre> ```mermaid classDiagram class ReprodutorMusical { - musica: String + tocar() + pausar() + selecionarMusica(String musica) } class AparelhoTelefonico { - numero: String + ligar(String numero) + atender() + iniciarCorreioVoz() } class NavegadorInternet { - url: String + exibirPagina(String url) + adicionarNovaAba() + atualizarPagina() } class iPhone { - modelo: String - numeroDeSerie: String } iPhone "1" --> "1" ReprodutorMusical iPhone "1" --> "1" AparelhoTelefonico iPhone "1" --> "1" NavegadorInternet ``` </pre>
+
